@@ -1,0 +1,127 @@
+@font-face {
+  font-family: Graphik;
+  src: url("GraphikRegular.otf");
+}
+@font-face {
+  font-family: AvertaDemo;
+  src: url("AvertaDemo-Regular.otf");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+body {
+  font-family: AvertaDemo;
+  position: relative;
+}
+.top-landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("https://zuri.team/img/hero-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: inherit;
+}
+.top-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50vw;
+  margin-top: 3rem;
+  font-family: AvertaDemo;
+  margin-bottom: 300px;
+}
+.header-image {
+  margin-bottom: 69px;
+  padding-top: 25px;
+  color: #514949;
+  font-size: 1rem;
+}
+.first-span a {
+  color: #e7332b;
+  text-decoration: none;
+}
+.logo-learn {
+  font-size: 30px;
+  font-family: "AvertaDemo";
+  margin-bottom: 36px;
+  color: #514949;
+  line-height: 48px;
+  font-weight: 800;
+}
+.logo-passage p {
+  text-align: center;
+  color: #514949;
+  font-size: 16px;
+  line-height: 25px;
+}
+.logo-passage {
+  margin-bottom: 6rem;
+}
+.first-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+.first a {
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #e7332b;
+  margin-right: 1rem;
+  padding: 11px 28px;
+  background-color: #e7332b;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 16px;
+}
+.first a:hover {
+  background-color: #fff;
+  color: #e7332b;
+}
+.second a {
+  text-decoration: none;
+  color: #e7332b;
+  border: 1px solid #e7332b;
+  padding: 11px 28px;
+  background-color: #fff;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 16px;
+}
+.second a:hover {
+  background-color: #e7332b;
+  color: #fff;
+}
+.middle-landing {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.middle-head {
+  text-align: center;
+  color: #514949;
+  line-height: 40px;
+  font-size: 24px;
+  margin-top: 150px;
+  margin-bottom: 8px;
+}
+.middle-p {
+  color: #e7332b;
+  font-weight: 300;
+  font-size: 15px;
+}
+.middle-image {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
