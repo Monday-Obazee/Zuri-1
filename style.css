@@ -125,3 +125,44 @@ body {
   justify-content: space-between;
   width: 100vw;
 }
+.middle-box {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 1200px;
+
+  width: 90vw;
+  height: 90vh;
+}
+.box {
+  background-color: #fffafa;
+  padding: 3rem;
+}
+.box p {
+  color: #6f6767;
+  line-height: 20px;
+  margin-bottom: 3rem;
+  margin-top: 0rem;
+}
+.middle-box a {
+  text-decoration: none;
+  color: #e7332b;
+  line-height: 20px;
+}
+.header-image {
+  background-color: #fff;
+  padding: 50px 0px;
+  color: black;
+  text-align: center;
+  font-weight: bolder;
+  width: 20vh;
+}
+.box-1 {
+  margin-right: 2rem;
+}
+.box-2 {
+  margin-right: 2rem;
+}
+.first-span {
+  color: #e7332b;
+}
