@@ -103,9 +103,12 @@ body {
 .middle-landing {
   display: flex;
   flex-direction: column;
-  margin: auto;
+
   justify-content: center;
   align-items: center;
+  position: relative;
+  overflow: hidden;
+  height: 1000px;
 }
 .middle-head {
   text-align: center;
@@ -129,7 +132,8 @@ body {
   display: flex;
   justify-content: space-around;
   position: absolute;
-  top: 1200px;
+  top: 500px;
+  overflow: hidden;
 
   width: 90vw;
   height: 90vh;
@@ -149,13 +153,15 @@ body {
   color: #e7332b;
   line-height: 20px;
 }
-.header-image {
+.header {
   background-color: #fff;
-  padding: 50px 0px;
+  padding: 30px 0px;
   color: black;
   text-align: center;
   font-weight: bolder;
-  width: 20vh;
+  width: 25vh;
+  white-space: nowrap;
+  margin-bottom: 3rem;
 }
 .box-1 {
   margin-right: 2rem;
