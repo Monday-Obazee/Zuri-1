@@ -172,3 +172,35 @@ body {
 .first-span {
   color: #e7332b;
 }
+.bottom-landing {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 300px;
+  margin-bottom: 100px;
+}
+.links {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.link-second {
+  color: #e7332b;
+  padding: 0.5rem 0rem;
+  text-decoration: none;
+}
+.link-text {
+  color: #6f6767;
+}
+.fa {
+  text-decoration: none;
+}
+.fa-facebook {
+  background-color: #475993;
+  color: #fff;
+  padding: 5px 5px 0px 5px;
+}
+.fa-twitter {
+  color: #76a9ea;
+  font-size: 50px;
+}
